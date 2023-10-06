@@ -31,8 +31,7 @@ function displayUsers(userData){
             const username = e.target.parentNode.lastChild.textContent
             displayRepos(username)
         })
-        // const profileLink = document.createElement("a")
-        // profileLink.href = user.html_url, profileLink.target="_blank";
+        
         avatar.src = user.avatar_url
         imgContainer.style.height="100px",  
         imgContainer.style.display="flex", 
