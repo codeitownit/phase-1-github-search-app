@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
     renderUser();
 })
-
+let userData;
 function renderUser(){
     const form = document.querySelector("#github-form")
     form.addEventListener("submit",(e)=>{
